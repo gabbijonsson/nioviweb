@@ -1,6 +1,6 @@
 import { motion, useAnimation } from "framer-motion";
 import PersonItem from "./PersonItem";
-import { useTextResources } from "d:/projects/niovi-website/src/useTextResources";
+import { useTextResources } from "../useTextResources";
 
 export default function SectionTeam() {
   const { people, copy } = useTextResources();
